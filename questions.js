@@ -40,7 +40,7 @@ const questions = [
 	"answer": 1
 },
 {
-	"question": "What is the highest-grossing movie of all time (as of 2023)?",
+	"question": "What is the highest-grossing movie of all time (as of 2024)?",
 	"option1": "Avatar",
 	"option2": "Avengers: Endgame",
 	"option3": "Titanic",
@@ -864,7 +864,7 @@ const questions = [
     "answer": 3
 },
 {
-    "question": "Which player holds the record for the most goals scored in a single Premier League season (as of 2023)?",
+    "question": "Which player holds the record for the most goals scored in a single Premier League season (as of 2024)?",
     "option1": "Alan Shearer",
     "option2": "Erling Haaland",
     "option3": "Mohamed Salah",

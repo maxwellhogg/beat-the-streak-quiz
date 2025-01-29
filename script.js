@@ -301,6 +301,3 @@ document.addEventListener("DOMContentLoaded", () => {
         initializeGame();
     
 });
-
-// ------------ FIX --------------
-// Clicking next question allows player to skip questions and still retain their streak. Button must be disabled during active question
