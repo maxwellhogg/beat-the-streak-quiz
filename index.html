@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet"> 
+  	<link rel="stylesheet" href="style.css" />
+  	<title>Beat The Streak - 2 Player Quiz</title>
+</head>
+<body>
+	
+  	<div class="header">
+    	<h1>BEAT THE STREAK</h1>
+  	</div>
+
+  	<!-- Question Section -->
+  	<section id="question-section">
+    	<div id="question-container">
+      		<h2 id="question">Welcome to Beat The Streak. Answer questions, build up a streak and bank as many points as possible to beat your opponent. If you get too greedy, you could lose it all!! Player 1 click 'NEXT QUESTION' to start the game. Good luck!!</h2>
+      		<div id="answer-buttons">
+        		<button class="answer-button">Answer 1</button>
+        		<button class="answer-button">Answer 2</button>
+        		<button class="answer-button">Answer 3</button>
+        		<button class="answer-button">Answer 4</button>
+      		</div>
+    	</div>
+  	</section>
+
+  	<!-- Player Scores Section -->
+  	<section id="scores-section">
+		
+    	<!-- Player 1 Section -->
+    	<div id="player1" class="player">
+      		<h2>Player 1</h2>
+      		<p>Current Score: <span id="player1-current-score">0</span></p>
+      		<p>Streak Length: <span id="player1-streak-length">0</span></p>
+      		<p>Overall Score: <span id="player1-overall-score">0</span></p>
+    	</div>
+
+    	<!-- Player 2 Section -->
+    	<div id="player2" class="player">
+      		<h2>Player 2</h2>
+      		<p>Current Score: <span id="player2-current-score">0</span></p>
+      		<p>Streak Length: <span id="player2-streak-length">0</span></p>
+      		<p>Overall Score: <span id="player2-overall-score">0</span></p>
+    	</div>
+		
+  	</section>
+
+  	<!-- Controls Section -->
+  	<section id="controls-section">
+		
+      	<div id="game-controls">
+      	  	<button id="next-question" class="controls-button">NEXT QUESTION</button>
+      		<button id="bank-points" class="controls-button">BANK POINTS</button>
+      		<button id="restart-game" class="controls-button">RESTART GAME</button>
+      		<button id="quit-game" class="controls-button">QUIT GAME</button>
+    	</div>
+		
+    	<div id="game-info">
+      		<p>Time Left: <span id="timer">30</span> seconds</p>
+      		<p>Question Number: <span id="question-number">1</span>/<span class="questions-length">250</span></p>
+    	</div>
+  	</section>
+	
+	<script src="questions.js"></script>
+	<script src="script.js"></script>
+	
+</body>
+</html>
